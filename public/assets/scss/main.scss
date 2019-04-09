@@ -16,11 +16,12 @@ $font-sans : 'Montserrat', sans-serif;
 
 
 body{
+
 	background: url("../images/bg.jpg");
 	background-position: top center;
-	background-size:auto 80%;
-	@media (min-width: 960px){
-		background-size: cover;
+	
+	@media (max-width: 960px){
+		background-size:auto 80%;
 	}
 	color: $white;
 	font-family: $font-sans;
@@ -31,7 +32,7 @@ body{
 	text-align: center;
 	padding-top: 180px;
 	@media (min-width: 960px){
-		padding-top: 300px;
+		padding-top: 580px;
 	}
 }
 
