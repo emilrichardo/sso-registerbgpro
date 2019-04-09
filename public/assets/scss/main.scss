@@ -68,10 +68,11 @@ body{
 		}
 
 		select{
-			color: $white;
+			outline: none;
 			option{
-				background-color: $primary;
+				
 				padding: 14px;
+				outline: none;
 			}
 		}
 	}
